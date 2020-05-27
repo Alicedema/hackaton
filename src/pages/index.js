@@ -7,6 +7,14 @@ import Footer from '../components/Footer';
 import Scroll from '../components/Scroll';
 import overLayPic from '../assets/images/overlay.png';
 import { Link } from 'gatsby';
+// OUR GIFS
+import slowEthan from '../assets/images/slow_ethan.gif';
+import alice from '../assets/images/alice.gif';
+import aliceNadia from '../assets/images/alice_nadia.gif';
+import allTogether from '../assets/images/all_together.gif';
+import niels from '../assets/images/niels_foodHackaton.gif';
+
+
 
 const sections = [
   { id: 'one', bg: require('../assets/images/table.jpg') },
@@ -26,6 +34,7 @@ const IndexPage = () => (
           <header className="major">
           </header>
           <p>
+            <img src={allTogether} alt="" />
           </p>
         </div>
         <Scroll type="id" element="two">
@@ -45,6 +54,8 @@ const IndexPage = () => (
           <header className="major">
           </header>
           <p>
+            <img src={slowEthan} alt="" />
+            <img src={alice} alt="" />
           </p>
           <ul className="icons-grid">
           </ul>
@@ -66,6 +77,7 @@ const IndexPage = () => (
           <header className="major">
           </header>
           <p>
+            <img src={aliceNadia} alt="" />
           </p>
         </div>
         <Scroll type="id" element="footer">
@@ -80,6 +92,9 @@ const IndexPage = () => (
       <div className="container">
         <header className="major">
         </header>
+        <p>
+          <img src={niels} alt="" />
+        </p>
       </div>
       <Footer />
     </section>
