@@ -7,6 +7,7 @@ import Footer from '../components/Footer';
 import Scroll from '../components/Scroll';
 import overLayPic from '../assets/images/overlay.png';
 import { Link } from 'gatsby';
+
 // OUR GIFS
 import slowEthan from '../assets/images/slow_ethan.gif';
 import alice from '../assets/images/alice.gif';
@@ -14,6 +15,8 @@ import aliceNadia from '../assets/images/alice_nadia.gif';
 import allTogether from '../assets/images/all_together.gif';
 import niels from '../assets/images/niels_foodHackaton.gif';
 
+import coffeeStain1 from '../assets/images/coffee-ring-5.png';
+import coffeeStain2 from '../assets/images/coffee_stain2.png';
 
 
 const sections = [
@@ -27,12 +30,15 @@ const IndexPage = () => (
 
     <section id="one" className="main special">
       <div className="container">
+        <img style={{ position: 'absolute', top: 0 }} width={250} height={250} src={coffeeStain1} alt="" />
         <span className="image fit primary">
           <img src={sections[0].bg} alt="" />
         </span>
         <div className="content">
           <header className="major">
           </header>
+          <p>
+          </p>
           <p>
             <img src={allTogether} alt="" />
           </p>
@@ -53,6 +59,7 @@ const IndexPage = () => (
           </a>
         </Scroll> */}
       </div>
+      <img style={{ position: 'absolute', top: 900, right: 200 }} width={400} height={350} src={coffeeStain2} alt="" />
     </section>
 
     <section>
