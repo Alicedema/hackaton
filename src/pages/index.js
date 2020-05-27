@@ -264,7 +264,7 @@ const IndexPage = () => {
               authenticity of something we still don't understand, but we
               probably should believe it, shouldn't we?
             </div>
-            <div className="article article--9">
+            <div className="article  article--9">
               <span className="big-text">what the hell really happened?</span>
               <img className="image left" src={alice} alt="" />
               <br />
@@ -289,7 +289,6 @@ const IndexPage = () => {
               integration that would go nicely with the NCC app. - We are able
               to create/update/delete meetings right from the application
               without the need to download any iCal
-              
             </div>
             <div className="article article--footer">
               <img className="image left" src={quality} alt="" />
