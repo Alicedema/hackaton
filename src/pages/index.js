@@ -28,55 +28,15 @@ const IndexPage = () => (
           <p>
           </p>
         </div>
-        <Scroll type="id" element="two">
+        {/* <Scroll type="id" element="two">
           <a href="#two" className="goto-next ">
             Next
           </a>
-        </Scroll>
+        </Scroll> */}
       </div>
     </section>
 
-    <section id="two" className="main special">
-      <div className="container">
-        <span className="image fit primary">
-          <img src={sections[1].bg} alt="" />
-        </span>
-        <div className="content">
-          <header className="major">
-          </header>
-          <p>
-          </p>
-          <ul className="icons-grid">
-          </ul>
-        </div>
-        <Scroll type="id" element="three">
-          <a href="#three" className="goto-next ">
-            Next
-          </a>
-        </Scroll>
-      </div>
-    </section>
-
-    <section id="three" className="main special">
-      <div className="container">
-        <span className="image fit primary">
-          <img src={sections[2].bg} alt="" />
-        </span>
-        <div className="content">
-          <header className="major">
-          </header>
-          <p>
-          </p>
-        </div>
-        <Scroll type="id" element="footer">
-          <a href="#footer" className="goto-next ">
-            Next
-          </a>
-        </Scroll>
-      </div>
-    </section>
-
-    <section id="footer">
+    <section>
       <div className="container">
         <header className="major">
         </header>
