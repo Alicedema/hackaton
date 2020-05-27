@@ -268,14 +268,27 @@ const IndexPage = () => {
               <span className="big-text">what the hell really happened?</span>
               <img className="image left" src={alice} alt="" />
               <br />
-              "Hard work comes with many sacrifices", these the words of a
-              valued member of society, A. De Mauro. It's been suggested her
-              name has been mispelled so many times, that one penny for each
-              mistake could have become a vacation to Hawaii. "Design is not
-              just a word. Design is a pixel taking its beauty daily routine in
-              an ocean of Javascript", in these few words it's hidden the
-              authenticity of something we still don't understand, but we
-              probably should believe it, shouldn't we?
+              Problem Statement - Outlook is not automatically being updated to
+              reflect all changes of the events. iCal needs to be downloaded
+              from NCC appImpact: - On Nike Employee / Buyer Account side: they
+              might have conflicting events which prevent them to attend one of
+              them; - On Nike Business side: - might miss deadlines. - If
+              employees miss updates on event dates or location, they might not
+              be able to change or cancel flights or hotels in time. -
+              Facts:~800 people participate to an event; For the initial list of
+              confirmed attendees, flights hotels are booked. - Nike has a $2-3
+              million loss on an yearly basis due to late / no cancelations.
+              buying account will place less orders if they don't participate to
+              a key events Solution - Azure App - Within an azure application
+              you are able to connect with Microsoft graph api (Photo sent,
+              Outlook docs:
+              https://docs.microsoft.com/en-us/previous-versions/office/office-365-api/api/version-2.0/calendar-rest-operations)
+              - Gives access to read/write against your calendars - Ability to
+              connect against multiple types of platforms (Photo sent) - We did
+              our demo by using a web application but there is an iOS
+              integration that would go nicely with the NCC app. - We are able
+              to create/update/delete meetings right from the application
+              without the need to download any iCal
             </div>
             <div className="article article--footer">
               <img className="image left" src={quality} alt="" />
