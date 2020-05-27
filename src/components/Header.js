@@ -13,8 +13,8 @@ export default function Header() {
         <ul className="actions special">
           <li>
             <Scroll type="id" element="one">
-              <a href="#one" className="button primary">
-                Begin
+              <a href="#one" className="button">
+                Expolore
               </a>
             </Scroll>
           </li>
