@@ -5,7 +5,7 @@ export default function Footer() {
   return (
     <footer>
       <ul className="icons">
-        {config.socialLinks.map(social => {
+        {/* {config.socialLinks.map(social => {
           const { icon, name, url } = social;
           return (
             <li key={url}>
@@ -14,16 +14,16 @@ export default function Footer() {
               </a>
             </li>
           );
-        })}
+        })} */}
       </ul>
       <ul className="copyright">
-        <li>&copy; Highlights</li>
-        <li>
+        <li>&copy; A-Team</li>
+        {/* <li>
           Design: <a href="http://html5up.net">HTML5 UP</a>
         </li>
         <li>
           Demo Images: <a href="http://unsplash.com">Unsplash</a>
-        </li>
+        </li> */}
       </ul>
     </footer>
   );
