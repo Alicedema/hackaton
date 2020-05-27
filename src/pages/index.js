@@ -37,11 +37,11 @@ const IndexPage = () => (
             <img src={allTogether} alt="" />
           </p>
         </div>
-        <Scroll type="id" element="two">
+        {/* <Scroll type="id" element="two">
           <a href="#two" className="goto-next ">
             Next
           </a>
-        </Scroll>
+        </Scroll> */}
       </div>
     </section>
 
