@@ -5,9 +5,9 @@
 
 // Duration.
 	$duration: (
-		transition:			0.2s,
+		transition:			0.8s,
 		loader-fadein:		1s,
-		bg-fadein:			0.5s
+		bg-fadein:			0.7s
 	);
 
 // Size.
@@ -19,24 +19,25 @@
 
 // Font.
 	$font: (
-		family:				('Raleway', 'Helvetica', sans-serif),
-		family-fixed:		('Courier New', monospace),
+		family:				('OldLondon', serif),
+		family-fixed:		('OldLondon', sans-serif),
 		weight:				400,
 		weight-bold:		700,
 		weight-heavy:		800
+
 	);
 
 // Palette.
 	$palette: (
-		bg:					#fff,
-		fg:					#6f7577,
-		fg-bold:			#61686b,
-		fg-light:			#a8b0b3,
-		fg-lighter:			#e8f0f3,
-		border:				#dddddd,
-		border-bg:			rgba(144,144,144,0.075),
-		border2:			#d3d3d3,
-		border2-bg:			rgba(144,144,144,0.15),
+		bg:					rgb(221, 207, 185),
+		fg:					#77736f,
+		fg-bold:			#6d5f5f,
+		fg-light:			#b1a787,
+		fg-lighter:			#dbcec1,
+		border:				#8f7272,
+		border-bg:			rgba(102, 99, 145, 0.075),
+		border2:			#947e7e,
+		border2-bg:			rgba(89, 89, 112, 0.15),
 
 		alt: (
 			fg-bold:		#ffffff,
@@ -50,11 +51,11 @@
 		),
 
 		accent1: (
-			bg:				#8cd1a8,
+			bg:				#d1b58c,
 			fg-bold:		#ffffff,
-			fg:				mix(#8cd1a8, #ffffff, 25%),
-			fg-light:		mix(#8cd1a8, #ffffff, 40%),
-			fg-lighter:		mix(#8cd1a8, #ffffff, 90%),
+			fg:				mix(#d1b58c, #ffffff, 25%),
+			fg-light:		mix(#d1b58c, #ffffff, 40%),
+			fg-lighter:		mix(#d1b58c, #ffffff, 90%),
 			border:			rgba(255,255,255,0.25),
 			border-bg:		rgba(255,255,255,0.075),
 			border2:		rgba(255,255,255,0.5),
@@ -62,7 +63,7 @@
 		),
 
 		accent2: (
-			bg:				#313a3d,
+			bg:				#5c4949,
 			fg-bold:		#ffffff,
 			fg:				mix(#313a3d, #ffffff, 25%),
 			fg-light:		mix(#313a3d, #ffffff, 40%),

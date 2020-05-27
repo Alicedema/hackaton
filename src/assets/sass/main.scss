@@ -4,6 +4,7 @@
 @import 'libs/vendor';
 @import 'libs/breakpoints';
 @import 'libs/html-grid';
+@import 'libs/font';
 @import url('font-awesome.min.css');
 @import url("https://fonts.googleapis.com/css?family=Raleway:400,400italic,700,800");
 
@@ -117,7 +118,7 @@
 	html {
 		background-color:		_palette(accent2, bg);
 		background-attachment:	fixed,						fixed;
-		background-image:		url('../images/overlay.png'),	url('../images/bg.jpg');
+		background-image:		url('../images/overlay.png'),	url('../images/table.jpg');
 		background-position:	top left,					center center;
 		background-repeat:		repeat,						none;
 		background-size:		auto,						cover;
