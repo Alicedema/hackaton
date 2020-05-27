@@ -1,76 +1,60 @@
 // Misc.
-	$misc: (
-		z-index-base:		10000
-	);
+$misc: (z-index-base: 10000);
 
 // Duration.
-	$duration: (
-		transition:			0.8s,
-		loader-fadein:		1s,
-		bg-fadein:			0.7s
-	);
+$duration: (transition: 0.8s,
+    loader-fadein: 1s,
+    bg-fadein: 0.7s);
 
 // Size.
-	$size: (
-		element-height:		3em,
-		element-margin:		2em,
-		container-width:	70em
-	);
+$size: (element-height: 3em,
+    element-margin: 2em,
+    container-width: 70em);
 
 // Font.
-	$font: (
-		family:				('OldLondon', serif),
-		family-fixed:		('GlueGun', sans-serif),
-		weight:				400,
-		weight-bold:		700,
-		weight-heavy:		800
-
-	);
+$font: (family-gothic: ('OldLondon', serif),
+    family-bold: ('GlueGun', sans-serif),
+    family-antic: ('Antic', serif),
+    weight: 400,
+    weight-bold: 700,
+    weight-heavy: 800);
 
 // Palette.
-	$palette: (
-		bg:					rgb(221, 207, 185),
-		fg:					#77736f,
-		fg-bold:			#6d5f5f,
-		fg-light:			#b1a787,
-		fg-lighter:			#dbcec1,
-		border:				#8f7272,
-		border-bg:			rgba(102, 99, 145, 0.075),
-		border2:			#947e7e,
-		border2-bg:			rgba(89, 89, 112, 0.15),
+$palette: (bg: rgb(221, 207, 185),
+    fg: #77736f,
+    fg-bold: #6d5f5f,
+    fg-light: #b1a787,
+    fg-lighter: #dbcec1,
+    border: #8f7272,
+    border-bg: rgba(102, 99, 145, 0.075),
+    border2: #947e7e,
+    border2-bg: rgba(89, 89, 112, 0.15),
 
-		alt: (
-			fg-bold:		#ffffff,
-			fg:				rgba(255,255,255,0.5),
-			fg-light:		rgba(255,255,255,0.35),
-			fg-lighter:		rgba(255,255,255,0.2),
-			border:			#ffffff,
-			border-bg:		rgba(255,255,255,0.075),
-			border2:		#ffffff,
-			border2-bg:		rgba(255,255,255,0.15)
-		),
+    alt: (fg-bold: #ffffff,
+        fg: rgba(255, 255, 255, 0.5),
+        fg-light: rgba(255, 255, 255, 0.35),
+        fg-lighter: rgba(255, 255, 255, 0.2),
+        border: #ffffff,
+        border-bg: rgba(255, 255, 255, 0.075),
+        border2: #ffffff,
+        border2-bg: rgba(255, 255, 255, 0.15)),
 
-		accent1: (
-			bg:				#d1b58c,
-			fg-bold:		#ffffff,
-			fg:				mix(#d1b58c, #ffffff, 25%),
-			fg-light:		mix(#d1b58c, #ffffff, 40%),
-			fg-lighter:		mix(#d1b58c, #ffffff, 90%),
-			border:			rgba(255,255,255,0.25),
-			border-bg:		rgba(255,255,255,0.075),
-			border2:		rgba(255,255,255,0.5),
-			border2-bg:		rgba(255,255,255,0.2)
-		),
+    accent1: (bg: #d1b58c,
+        fg-bold: #ffffff,
+        fg: mix(#d1b58c, #ffffff, 25%),
+        fg-light: mix(#d1b58c, #ffffff, 40%),
+        fg-lighter: mix(#d1b58c, #ffffff, 90%),
+        border: rgba(255, 255, 255, 0.25),
+        border-bg: rgba(255, 255, 255, 0.075),
+        border2: rgba(255, 255, 255, 0.5),
+        border2-bg: rgba(255, 255, 255, 0.2)),
 
-		accent2: (
-			bg:				#5c4949,
-			fg-bold:		#ffffff,
-			fg:				mix(#313a3d, #ffffff, 25%),
-			fg-light:		mix(#313a3d, #ffffff, 40%),
-			fg-lighter:		mix(#313a3d, #ffffff, 90%),
-			border:			rgba(255,255,255,0.25),
-			border-bg:		rgba(255,255,255,0.075),
-			border2:		rgba(255,255,255,0.5),
-			border2-bg:		rgba(255,255,255,0.2)
-		)
-	);
+    accent2: (bg: #5c4949,
+        fg-bold: #ffffff,
+        fg: mix(#313a3d, #ffffff, 25%),
+        fg-light: mix(#313a3d, #ffffff, 40%),
+        fg-lighter: mix(#313a3d, #ffffff, 90%),
+        border: rgba(255, 255, 255, 0.25),
+        border-bg: rgba(255, 255, 255, 0.075),
+        border2: rgba(255, 255, 255, 0.5),
+        border2-bg: rgba(255, 255, 255, 0.2)));
