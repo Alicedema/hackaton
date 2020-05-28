@@ -10,6 +10,9 @@ import aliceNadia from '../assets/images/alice_nadia.gif';
 import allTogether from '../assets/images/all_together.gif';
 import niels from '../assets/images/niels_foodHackaton.gif';
 
+import website from '../assets/images/website.png';
+import schema from '../assets/images/schema.png';
+
 import coffeeStain1 from '../assets/images/coffee-ring-5.png';
 import coffeeStain2 from '../assets/images/coffee_stain2.png';
 import hand from '../assets/images/hand.png';
@@ -38,13 +41,35 @@ const IndexPage = () => {
             <img src={sections[0].bg} alt="" />
           </span>
           <div className="major">
+            <div style={{ position: 'absolute', right: '45px', top: '28px' }}>
+              Thursday, 28th May 2020
+            </div>
             <h1>
               The A-Team <span>Daily</span>
             </h1>
           </div>
 
           <div className="content border">
-            <div className="article article--disclaimer">Disclaimer</div>
+            <div className="article article--disclaimer">
+              All Rights Reserved. © 2009 A-Team development &amp; co. <br />{' '}
+              <br />
+              All rights reserved. No part of this publication may be
+              reproduced, distributed, or transmitted in any form or by any
+              means, including photocopying, recording, or other electronic or
+              mechanical methods, without the prior written permission of the
+              publisher, except in the case of brief quotations embodied in
+              critical reviews and certain other noncommercial uses permitted by
+              copyright law. For permission requests, write to the publisher,
+              addressed “Attention: Permissions Coordinator,” at the address
+              below. Ordering Information: Quantity sales. Special discounts are
+              available on quantity purchases by corporations, associations, and
+              others. For details, contact the publisher at the address above.
+              Orders by U.S. trade bookstores and wholesalers. Please contact
+              Big Distribution: Tel: (800) 800-80; Fax: (800) 800-81 or visit
+              www.weAreATeam.com.
+              <br /> <br />
+              Printed in the United Codemakers of The Web.
+            </div>
             <div className="article article--bigTitle">Outlook Galore?</div>
             <div className="article article--1">
               <img
@@ -105,7 +130,9 @@ const IndexPage = () => {
               <br />
               We only know that, after a long, exhausting day, the Immortals
               finally came up with not only one, but two projects. An amazing
-              and pretty-looking Outlook Calendar sync application and
+              and pretty-looking Outlook Calendar sync application and a Gatsby
+              newspaper were born today! You can find more details below, from
+              our brilliant correspondant Eton Phlorie.
               <div className="author align-right">Ellis Dema</div>
             </div>
             <div className="article article--3">
@@ -253,42 +280,77 @@ const IndexPage = () => {
               hidden the authenticity of something we still don't understand,
               but we probably should believe it, shouldn't we?
             </div>
-            <div className="article  article--8">
-              <img className="image left" src={alice} alt="" width="310px" />
-              "Hard work comes with many sacrifices", these the words of a
-              valued member of society, A. De Mauro. It's been suggested her
-              name has been mispelled so many times, that earning one penny for
-              each mistake could have become a vacation to Hawaii. "Design is
-              not just a word. Design is a pixel taking its beauty daily routine
-              in an ocean of Javascript", in these few words it's hidden the
-              authenticity of something we still don't understand, but we
-              probably should believe it, shouldn't we?
+            <div
+              className="article  article--8"
+              style={{ textAlign: 'center' }}
+            >
+              <img className="image left" src={schema} alt="" width="310px" />
+              <div className="article-title article-title--2">
+                Dunno what is it but it's working
+              </div>
+              Any incredibly successful project has one or two scribbled
+              schemas. But not any project has one or two
+              remote-live-performance scribbled schemas! Buy today your tablet,
+              with a sensitive to pressure pen to archieve your scribbly goals
+              in life!
+              <br />
+              Our favorite? An iPad pro with its Pencil, and Procreate (it's
+              only 10 euros!). Our second favorite? Surface Pro with its
+              integrated pen, and Windows Journal, or even Photoshop sometimes!
+              <br />
+              <div className="author align-right">Ellis Dema</div>
             </div>
             <div className="article  article--9">
-              <span className="big-text">what the hell really happened?</span>
-              <img className="image left" src={alice} alt="" />
+              <span className="big-text">
+                what the hell really happened? ---- -- -- -
+              </span>
               <br />
-              Problem Statement - Outlook is not automatically being updated to
-              reflect all changes of the events. iCal needs to be downloaded
-              from NCC appImpact: - On Nike Employee / Buyer Account side: they
-              might have conflicting events which prevent them to attend one of
-              them; - On Nike Business side: - might miss deadlines. - If
-              employees miss updates on event dates or location, they might not
-              be able to change or cancel flights or hotels in time. -
-              Facts:~800 people participate to an event; For the initial list of
-              confirmed attendees, flights hotels are booked. - Nike has a $2-3
-              million loss on an yearly basis due to late / no cancelations.
-              buying account will place less orders if they don't participate to
-              a key events Solution - Azure App - Within an azure application
-              you are able to connect with Microsoft graph api (Photo sent,
-              Outlook docs:
-              https://docs.microsoft.com/en-us/previous-versions/office/office-365-api/api/version-2.0/calendar-rest-operations)
-              - Gives access to read/write against your calendars - Ability to
-              connect against multiple types of platforms (Photo sent) - We did
-              our demo by using a web application but there is an iOS
-              integration that would go nicely with the NCC app. - We are able
-              to create/update/delete meetings right from the application
-              without the need to download any iCal
+              <img
+                width="400"
+                style={{ marginRight: '10px' }}
+                className="image left"
+                src={website}
+                alt=""
+              />
+              <span className="medium-text">Problem Statement</span>
+              <br />
+              Outlook is not automatically being updated to reflect all changes
+              of the events. iCal needs to be downloaded from NCC app.
+              <br />
+              <strong>Impact on Employee / Buyer Account side</strong>:
+              <br />
+              they might have conflicting events which prevent them to attend
+              one of them.
+              <br />
+              <strong>Impact on Business side: </strong>
+              <br /> - risk to miss deadlines
+              <br />- if employees miss updates on event dates or location, they
+              might not be able to change or cancel flights or hotels in time.
+              <br />
+              <span className="medium-text">More facts, less words</span>
+              <br />
+              Around 800 people participate to an event; For the initial list of
+              confirmed attendees, flights hotels are booked. <br />
+              <strong>But what about the Azure app?</strong> Within an Azure
+              application you are able to connect with Microsoft graph api (see
+              Outlook docs): it will give access to read/write against your
+              calendars and even the brilliant ability to connect against
+              multiple types of platforms (like Gmail).
+              <br />
+              <br />
+              <span className="medium-text">
+                "We did our demo by using a web application but there is an iOS
+                integration that would go nicely with the NCC app"
+              </span>
+              <br />
+              - A-Team declared -
+              <br />
+              <span className="medium-text">
+                "We are able to create/update/delete meetings right from the
+                application without the need to download any iCal"
+              </span>
+              <br />
+              <div className="author align-right">Eton Phlorie</div>
             </div>
             <div className="article article--footer">
               <img className="image left" src={quality} alt="" />

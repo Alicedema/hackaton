@@ -281,15 +281,16 @@ hr {
     font-size: 23px;
     line-height: 1;
     z-index: 50;
-    padding: 8px;
-    border: 1px dashed red;
+    padding: 9px;
 
     &--disclaimer {
         grid-area: disclaim;
         background-color: $dark-title;
-        color: rgby(131, 107, 94);
+        color: rgb(226, 221, 219);
         padding: 0;
         z-index: initial;
+        padding: 20px;
+        font-size: 14px;
     }
 
     &--bigTitle {
